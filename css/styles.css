@@ -5,6 +5,14 @@
     color: white;
 }
 
+a {
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+
 h1, h2, h3 {
     font-family: "Sriracha"
 }
@@ -41,11 +49,15 @@ body {
 }
 
 footer {
-    padding: 50px;
-    background: rgba(134, 80, 80, 0.575);
+    padding: 30px;
+    background: linear-gradient(rgb(182, 45, 45), rgba(134, 80, 80, 0.575));
 }
 
 #products {
     margin: 50px;
+}
+
+.navbar-dark {
+    background-color:rgb(104, 16, 16)
 }
 
