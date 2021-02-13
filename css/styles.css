@@ -5,12 +5,13 @@
     color: white;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Sriracha"
 }
 
 body {
     font-family: "Open Sans", "sans-serif";
+    background: rgb(238, 209, 209);
 }
 
 .carousel-caption {
@@ -18,5 +19,33 @@ body {
 }
 
 .carousel {
-    border: solid #5637DD;
+    background: rgb(124, 12, 12);
+    padding: 15px;
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 25px;
+    width: 25px;
+    outline: black;
+    background-color: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+footer {
+    padding: 50px;
+    background: rgba(134, 80, 80, 0.575);
+}
+
+#products {
+    margin: 50px;
+}
+
